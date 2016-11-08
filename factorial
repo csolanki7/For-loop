@@ -1,0 +1,17 @@
+package fibnacciseries;
+
+public class factional {
+	
+	public static void main(String args[]){  
+		  int i,x=1;  
+		  int number=5; 
+		  for(i=1;i<=number;i++){    
+		      x=x*i;    
+		  }    
+		  System.out.println("Factorial of "+number+" is: "+x);    
+		 }  
+
+}
+
+output : 
+Factorial of 5 is: 120
